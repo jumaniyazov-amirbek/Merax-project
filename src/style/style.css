@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+.continer {
+    max-width: 1300px;
+    padding: 0 20px;
+    margin: 20px auto;
+}
+.Header-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.Header-mini-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.Header-mini-block-btn button {
+    background-color: #01bd80;
+    width: 217px;
+    height: 51px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+.Header-mini-block-btn button:hover {
+    background-color: #fff;
+    border: 1px solid #01bd80;
+    color: #01bd80;
+}
+.Header-tel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: #fff;
+    border-radius: 100px;
+    border: #d2d2d2 1px solid;
+    padding: 0 0 0 10px;
+    color: #000;
+    gap: 15px;
+}
+.Header-tel-img img {
+    width: 31px;
+    height: 31px;
+}
+.Header-tel-img {
+    background-color: #01bd80;
+    border-radius: 50px;
+    width: 51px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.About-text-btn h1 {
+    font-size: 46px;
+    color: #444444;
+}
+.About-text-btn p {
+    font-size: 24px;
+    color: #444444;
+}
+.About-text-btn button:hover {
+    background-color: #01bd80;
+    color: #444444;
+    border: #444444 1px solid;
+}
+.About-text-btn button {
+    width: 200px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: #444444;
+    color: #01bd80;
+    border: #01bd80 1px solid;
+    transition: 0.5s;
+}
+.About-block {
+    display: flex;
+    background: linear-gradient(90deg, #01bd80 0%, #39e1ab 100%);
+    width: 1240px;
+    height: 481px;
+    border-radius: 20px;
+    gap: 50px;
+}
+.About-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 0 0;
+}
+.About-text-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 120px 0 0 40px;
+}
+.About-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.About-img-top {
+    margin: 0 0 0 60px;
+}
+.About-img-left {
+    margin: 0 0 0 60px;
+}
+.Coaches-mini-block {
+    display: flex;
+    border: 2px solid #4ac19b80;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    width: 400px;
+    height: 190px;
+}
+.Coaches-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.Coaches-all h1 {
+    color: #01bd80;
+    text-align: center;
+    padding: 100px 0 50px 0;
+}
+.Coaches-mini-block p {
+    color: #444444;
+    font-size: 24px;
+    font-weight: 600;
+}
+.Coaches-mini-block span {
+    color: #909090;
+    font-size: 16px;
+}
+.Footer-block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 0;
+}
+.Footer-block-minihr hr {
+    border: 1px solid #dedede;
+}
+.Footer-block-mini {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.Footer-block-mini-logtip {
+    display: flex;
+    gap: 10px;
+}
