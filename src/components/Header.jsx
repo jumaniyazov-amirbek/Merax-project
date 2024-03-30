@@ -6,7 +6,7 @@ export default function Header() {
         <div className="Header-all">
             <div className="continer">
                 <div className="Header-block">
-                    <div className="Header-logo"><img src={logo} alt="" /></div>
+                    <div className="Header-logo"><a href="/main"><img src={logo} alt="" /></a></div>
                     <div className="Header-mini-block">
                         <div className="Header-tel">
                             <div className="Header-tel-text"><p>+998(90) 429-90-19</p></div>
