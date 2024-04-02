@@ -4,19 +4,20 @@ import Coaches from "../page/Coaches.jsx";
 import Advice from "../page/Advice.jsx";
 import Question from "../page/Question.jsx";
 import YourField from "../page/YourField.jsx";
-import {BrowserRouter} from "react-router-dom";
-
+import { BrowserRouter } from "react-router-dom";
+import Reading from "../page/Reading.jsx";
 
 export default function Main() {
-  return (
-    <div>
-       <BrowserRouter>
-        <About />
-        <Coaches />
-        <YourField />
-        <Advice />
-        <Question />
-      </BrowserRouter> 
-    </div>
-  );
+    return (
+        <div>
+            <BrowserRouter>
+                <About />
+                <Coaches />
+                <YourField />
+                <Advice />
+                <Reading />
+                <Question />
+            </BrowserRouter>
+        </div>
+    );
 }
