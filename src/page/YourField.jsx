@@ -19,7 +19,7 @@ export default function YourField() {
               <span>Batafsil</span>
             </div>
           </Link>
-          <Link to="/Page2">
+          <Link to="/">
             <div className="link-block">
               <h1>Foundation</h1>
               <p>
@@ -30,7 +30,7 @@ export default function YourField() {
             </div>
           </Link>
           <br />
-          <Link to="/Page3">
+          <Link to="/">
             <div className="link-block">
               <h1>Backend - Nodejs</h1>
               <p>
